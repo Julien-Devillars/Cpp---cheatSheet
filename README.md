@@ -18,7 +18,7 @@ The features are these one :
         concurrency
   * **auto and decltype** - avoiding redundant repetition of type names
   * **range-for** - simple linear traversal of ranges
-  * **move semantics** and rvalue references - minimizing copying of data
+  * **move semantics and rvalue references** - minimizing copying of data
   * **uniform initialization** - an (almost) completely general syntax and semantics for initializing
   objects of all kinds and types 
   * **nullptr** - a name for the null pointer
