@@ -19,6 +19,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/function1_auto_decltype.h"
 #include "include/function2_range_for.h"
 #include "include/function3_move_semantic.h"
+#include "include/function4_smart_pointer.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -32,6 +33,7 @@ int main(){
 	//p(function_1_auto_decltype());  // auto and decltype
 	//p(function_2_range_for());  // Range-for
 	//p(function_3_move_semantic());  // Range-for
+    function_4_smart_pointer();
     //function3();  // Move semantics
     //function4();  // smart pointers
     //function5();  // uniform Initialization
