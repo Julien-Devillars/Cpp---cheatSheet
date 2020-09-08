@@ -29,6 +29,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/function11_lambdas.h"
 #include "include/function12_variadic_templates.h"
 #include "include/function13_aliases.h"
+#include "include/function14_tuples.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -37,7 +38,7 @@ There is a summary of every new features added in each version of c++ under the 
 
 int main(){
 	
-	// c++ 11
+	// C++ 11
 
 	//p(function_1_auto_decltype());                // auto and decltype
 	//p(function_2_range_for());                    // Range-for
@@ -50,13 +51,9 @@ int main(){
     ///p(function_9_raw_literals());                // Raw litterals
     //p(function_10_attributes());                  // Attributes
     //p(function_11_lambdas());                     // Lambdas
-    //p(function_12_variadic_templates());            // Variadic Templates
-    p(function_13_aliases());            // Variadic Templates
-
-    //function12(); // variadic template
-    //function13(); // aliases
-    //function14(); // tuples
-	
+    //p(function_12_variadic_templates());          // Variadic Templates
+    //p(function_13_aliases());                       // Variadic Templates
+    p(function_14_tuples());                                 // tuples
 	
 	
 	return 0;
