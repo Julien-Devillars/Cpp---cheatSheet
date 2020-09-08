@@ -36,9 +36,11 @@ std::string function_14_tuples(){
          " - Make_tuple function\n"
          "    std::make_tuple(1.324, 'c', \"string\") (make_tuple function)\n\n";
 
-    toReturn += "3 ways to get values from a tuple : \n\n"
+    toReturn += "4 ways to get values from a tuple : \n\n"
         " - Get function (with i (integer) the selected attribute)\n"
         "    std::get<i>(myTuple)\n"
+        " - Accessing by type (C++14)\n"
+        "    std::get<int>(myTuple)\n"
         " - Tie function (wich modify values by reference) \n"
         "    std::tie(var1, var2, var3) \n"
         " - Structured Binding (C++17)\n"
