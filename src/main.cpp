@@ -26,6 +26,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/function8_user_defined_literals.h"
 #include "include/function9_raw_litterals.h"
 #include "include/function10_attributes.h"
+#include "include/function11_lambdas.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -44,8 +45,9 @@ int main(){
     //p(function_6_nullptr());                      // nullptr
     //p(function_7_constexpr());                    // constexpr
     //p(function_8_user_defined_literals());        // User-defined litterals
-    ///p(function_9_raw_literals());                   // Raw litterals
-    p(function_10_attributes());                    // Attributes
+    ///p(function_9_raw_literals());                // Raw litterals
+    //p(function_10_attributes());                  // Attributes
+    p(function_11_lambdas());                       // Lambdas
 
     //function10(); // Attributes
     //function11(); // lambdas
