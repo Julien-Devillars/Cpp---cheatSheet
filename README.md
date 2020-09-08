@@ -74,3 +74,17 @@ The features are these one :
   * **regex** - regular expressions
   * **chrono** - time
   * **random** - random number generators and distributions
+  
+# C++ 14
+
+ ## The C++14 feature set can be summarized as:
+
+   * **Binary literals** - e.g., 0b1001000011110011
+   * **Digit separators** - for readability, e.g., 0b1001’0000’1111’0011
+   * **Variable templates** - parameterized constants and variables
+   * **Function return type deduction**
+   * **Generic lambdas**
+   * **Local variables in constexpr functions**
+   * **Move capture** - e.g., [p = move(ptr)] {  ...  }; move a value into a lambda
+   * **Accessing a tuple by type** - e.g., x = get\<int\>(t)
+   * **User-defined literals in the standard library** - e.g., 10i, "Hello!"s, 10s, 3ms, 55us, 17ns
