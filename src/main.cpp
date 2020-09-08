@@ -28,6 +28,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/function10_attributes.h"
 #include "include/function11_lambdas.h"
 #include "include/function12_variadic_templates.h"
+#include "include/function13_aliases.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -48,8 +49,9 @@ int main(){
     //p(function_8_user_defined_literals());        // User-defined litterals
     ///p(function_9_raw_literals());                // Raw litterals
     //p(function_10_attributes());                  // Attributes
-    //p(function_11_lambdas());                       // Lambdas
-    p(function_12_variadic_templates());                       // Lambdas
+    //p(function_11_lambdas());                     // Lambdas
+    //p(function_12_variadic_templates());            // Variadic Templates
+    p(function_13_aliases());            // Variadic Templates
 
     //function12(); // variadic template
     //function13(); // aliases
