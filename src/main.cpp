@@ -30,6 +30,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/function12_variadic_templates.h"
 #include "include/function13_aliases.h"
 #include "include/function14_tuples.h"
+#include "include/function15_digit_separator.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -53,11 +54,11 @@ int main(){
     //p(function_11_lambdas());                     // Lambdas
     //p(function_12_variadic_templates());          // Variadic Templates
     //p(function_13_aliases());                       // Variadic Templates
-    p(function_14_tuples());                                 // tuples
+    //p(function_14_tuples());                                 // tuples
 	
 	// C++ 14
 	
-    //function15(); // Digit Separators
+    p(function_15_digit_separator()); // Digit Separators
     //function16(); // Variable Templates
     //function17(); // Function Return Type Deduction
     //function18(); // Generic Lambdas
