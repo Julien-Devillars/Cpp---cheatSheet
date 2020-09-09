@@ -32,6 +32,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/function14_tuples.h"
 #include "include/function15_digit_separator.h"
 #include "include/function16_variables_templates.h"
+#include "include/function17_function_return_type_deduction.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -50,7 +51,7 @@ int main(){
     //p(function_6_nullptr());                      // nullptr
     //p(function_7_constexpr());                    // constexpr
     //p(function_8_user_defined_literals());        // User-defined litterals
-    //p(function_9_raw_literals());                // Raw litterals
+    //p(function_9_raw_literals());                 // Raw litterals
     //p(function_10_attributes());                  // Attributes
     //p(function_11_lambdas());                     // Lambdas
     //p(function_12_variadic_templates());          // Variadic Templates
@@ -60,8 +61,8 @@ int main(){
 	// C++ 14
 	
     //p(function_15_digit_separator());             // Digit Separators
-    p(function_16_variables_templates());           // Variable Templates
-    //function17(); // Function Return Type Deduction
+    //p(function_16_variables_templates());         // Variable Templates
+    //p(function_17_function_return_type_deduction());// Function Return Type Deduction
     //function18(); // Generic Lambdas
 
 	return 0;
