@@ -88,3 +88,40 @@ The features are these one :
    * **Move capture** - e.g., [p = move(ptr)] {  ...  }; move a value into a lambda
    * **Accessing a tuple by type** - e.g., x = get\<int\>(t)
    * **User-defined literals in the standard library** - e.g., 10i, "Hello!"s, 10s, 3ms, 55us, 17ns
+
+
+# C++17
+ ## C++17 had about 21 new language features, including:
+
+ * **Constructor template argument deduction** - simplify object definitions
+ * **Deduction guides** - an explicit notation for resolving constructor template argument deduction ambiguities
+ * **Structured bindings** - simplify notation and eliminate a source of uninitialized variables
+ * **inline variables** - simplify the use of statically allocated variables in header - only libraries
+ * **Fold expressions** - simplify some uses of variadic templates
+ * **Explicit test in conditions** - a bit like conditions in for - statements
+ * **Guaranteed copy elision** - eliminate many redundant copy operations
+ * **Stricter expression evaluation order** - prevents some subtle order - of - evaluation mistakes
+ * **auto as a template argument type** - type deduction for value template arguments
+ * **Standard attributes to catch common mistakes** - [[maybe_unused]], [[nodiscard]], and [[fallthrough]]
+ * **Hexadecimal floating** - point literals
+ * **Constant expression if** - simplify compile - time evaluated code
+
+Unfortunately, this is not quite the full list of extensions. Quite a few are so small that they are not easy to briefly describe.
+
+## The C++17 standard-library added about 13 new features plus many minor modifications:
+
+  * **optional, variant, and any** - standard-library types for expressing alternatives
+  * **shared_mutex and shared_lock (reader-writer locks) and scoped_lock**
+  * **parallel STL** - multi-threaded and/or vectorized versions of standard-library algorithms
+  * **file system** - the ability to portably manipulate file-system paths and directories
+  * **string_view** - a non-owning reference to an immutable sequence of characters
+  * **Mathematical special functions** - including Lag
+
+## Proposals That Didn’t Make C++17
+
+  * **concepts (C++20)**
+  * **networking**
+  * **operator dot**
+  * **uniform call syntax**
+  * **default comparison**
+  * **coroutines (C++20)**
