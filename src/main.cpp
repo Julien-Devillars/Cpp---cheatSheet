@@ -33,6 +33,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/function15_digit_separator.h"
 #include "include/function16_variables_templates.h"
 #include "include/function17_function_return_type_deduction.h"
+#include "include/function18_generic_lambdas.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -63,6 +64,8 @@ int main(){
     //p(function_15_digit_separator());             // Digit Separators
     //p(function_16_variables_templates());         // Variable Templates
     //p(function_17_function_return_type_deduction());// Function Return Type Deduction
+    p(function_18_generic_lambdas());                 // Generic Lambdas
+
     //function18(); // Generic Lambdas
 
 	return 0;
