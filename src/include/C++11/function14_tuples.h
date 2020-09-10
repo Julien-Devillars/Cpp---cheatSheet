@@ -1,5 +1,5 @@
 #pragma once
-#include "import.h"
+#include "../import.h"
 
 
 std::tuple<double, char, std::string> get_student(int id)

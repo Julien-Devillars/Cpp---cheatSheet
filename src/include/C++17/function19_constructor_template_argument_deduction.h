@@ -1,9 +1,9 @@
 #pragma once
-#include "import.h"
+#include "../import.h"
 #include <utility>
 
 
-std::string function19_constructor_template_argument_deduction(){
+std::string function_19_constructor_template_argument_deduction(){
   // 19. constructor_template_argument_deduction
 	std::string toReturn = "";
     toReturn += "######### 19 Constructor Template Argument Deduction ############\n\n";
