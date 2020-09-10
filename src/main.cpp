@@ -69,7 +69,7 @@ int main(){
 
     // C++ 17
 
-    //p(function19_constructor_template_argument_deduction());    // Constructor Template Argument Deduction
+    p(function19_constructor_template_argument_deduction());    // Constructor Template Argument Deduction
     //function20();   // Structured Bindings
     //function21();   // variant, optional, and any
     //function22();   // concurrency
