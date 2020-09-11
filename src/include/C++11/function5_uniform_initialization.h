@@ -13,7 +13,7 @@ std::string function_5_uniform_initialization(){
     int a2 = 5;
     int a3(5); 
     int a4{ 5 }; 
-
+    
     // Equal (=) is optional before a brace initializer list
     int b1[]{ 7 ,8 }; // array
     int b2[] = { 7 ,8 }; // array

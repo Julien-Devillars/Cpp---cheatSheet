@@ -38,42 +38,50 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/C++14/function18_generic_lambdas.h"
 
 #include "include/C++17/function19_constructor_template_argument_deduction.h"
+#include "include/C++17/function20_structured_bindings.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
 #define p(a) std::cout << a << std::endl;
 #define NN std::cout << "\n";
 
+#define pb push_back
 int main(){
 	
 	// C++ 11
 
-	//p(function_1_auto_decltype());                            // auto and decltype
-	//p(function_2_range_for());                                // Range-for
-	//p(function_3_move_semantic());                            // Move semantics
-    //p(function_4_smart_pointer());                            // smart pointers
-    //p(function_5_uniform_initialization());                   // uniform Initialization
-    //p(function_6_nullptr());                                  // nullptr
-    //p(function_7_constexpr());                                // constexpr
-    //p(function_8_user_defined_literals());                    // User-defined litterals
-    //p(function_9_raw_literals());                             // Raw litterals
-    //p(function_10_attributes());                              // Attributes
-    //p(function_11_lambdas());                                 // Lambdas
-    //p(function_12_variadic_templates());                      // Variadic Templates
-    //p(function_13_aliases());                                 // Variadic Templates
-    //p(function_14_tuples());                                  // tuples
+    using function = std::string(*) ();    // alias
+    std::vector<function> functions;
+
+	functions.pb(function_1_auto_decltype);                        // auto and decltype
+	functions.pb(function_2_range_for);                            // Range-for
+	functions.pb(function_3_move_semantic);                        // Move semantics
+    functions.pb(function_4_smart_pointer);                        // smart pointers
+    functions.pb(function_5_uniform_initialization);               // uniform Initialization
+    functions.pb(function_6_nullptr);                              // nullptr
+    functions.pb(function_7_constexpr);                            // constexpr
+    functions.pb(function_8_user_defined_literals);                // User-defined litterals
+    functions.pb(function_9_raw_literals);                         // Raw litterals
+    functions.pb(function_10_attributes);                          // Attributes
+    functions.pb(function_11_lambdas);                             // Lambdas
+    functions.pb(function_12_variadic_templates);                  // Variadic Templates
+    functions.pb(function_13_aliases);                             // Variadic Templates
+    functions.pb(function_14_tuples);                              // tuples
 	
 	// C++ 14
 	
-    //p(function_15_digit_separator());                         // Digit Separators
-    //p(function_16_variables_templates());                     // Variable Templates
-    //p(function_17_function_return_type_deduction());          // Function Return Type Deduction
-    //p(function_18_generic_lambdas());                         // Generic Lambdas
+    functions.pb(function_15_digit_separator);                     // Digit Separators
+    functions.pb(function_16_variables_templates);                 // Variable Templates
+    functions.pb(function_17_function_return_type_deduction);      // Function Return Type Deduction
+    functions.pb(function_18_generic_lambdas);                     // Generic Lambdas
 
     // C++ 17
     
-    p(function_19_constructor_template_argument_deduction());    // Constructor Template Argument Deduction
-    //function20();   // Structured Bindings
+    functions.pb(function_19_constructor_template_argument_deduction);// Constructor Template Argument Deduction
+    functions.pb(function_20_structure_bindings);// Constructor Template Argument Deduction
+
+    std::cout << functions[functions.size() - 1]() << std::endl;
+
     //function21();   // variant, optional, and any
     //function22();   // concurrency
     //function23();   // Parallel STL
