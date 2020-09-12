@@ -40,6 +40,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/C++17/function19_constructor_template_argument_deduction.h"
 #include "include/C++17/function20_structured_bindings.h"
 #include "include/C++17/function21_optional_variant_any.h"
+#include "include/C++17/function22_concurrency.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -79,15 +80,16 @@ int main(){
     // C++ 17
     
     functions.pb(function_19_constructor_template_argument_deduction);// Constructor Template Argument Deduction
-    functions.pb(function_20_structure_bindings);// Constructor Template Argument Deduction
-    functions.pb(function_21_optional_variant_any);// Constructor Template Argument Deduction
+    functions.pb(function_20_structure_bindings);                   // Constructor Template Argument Deduction
+    functions.pb(function_21_optional_variant_any);                 // variant, optional, and any
+    functions.pb(function_22_concurrency);                          // concurrency
 
 
-    //function21();   // variant, optional, and any
-    //function22();   // concurrency
     //function23();   // Parallel STL
     //function24();   // File System
     //function25();   // Explicit Tests in Condition
+    
+
 
     std::cout << functions[functions.size() - 1]() << std::endl;
 
