@@ -125,3 +125,42 @@ Unfortunately, this is not quite the full list of extensions. Quite a few are so
   * **uniform call syntax**
   * **default comparison**
   * **coroutines (C++20)**
+  
+# C++20
+ ## The C++20 features are :
+
+   * **Concepts** - specification of requirements for generic code
+   * **Modules** - support for modularity for code hygieneand improved compile times
+   * **Coroutines** - stackless coroutines
+   * **Compile** - time computation support
+   * **<=>** - a three way comparison operator (spaceship operator)
+   * **Ranges** - a library flexible range abstractions
+   * **Date** - a library providing date types, calendar, and time zones
+   * **Span** - a library providing efficient and safe access to arrays
+   * **Format** - a library providing type - safe printf - like output
+   * **Concurrency improvements** - such as scoped threads and stop tokens
+   * **Many minor features** - such as C99 - style designated initializers and string literals as
+   template arguments
+
+ ## The following are not ready for C++20 but may become major features of C++23 :
+ 
+   * **Networking** - a networking library(sockets, etc.)
+   * **Static reflection** - facilities for generating code based on the surrounding program
+   * **Pattern Matching** - selecting code to be executed based on types and object values
+        
+ ## C++20 offers many minor new features, such as :
+        
+ * **C99** - style designated initializers
+ * Refinements to lambda capture
+ * Template parameter lists for generic lambdas
+ * Initialization of an additional variable within a range - for
+ * Lambdas in unevaluated contexts
+ * Pack expansions in lambda capture
+ * Removing the need for typename in some cases
+ * More attributes : [[likely]] and [[unlikely]]
+ * source_location to give the source code location of a piece of code without the use of macros
+ * Feature test macros
+ * Conditional explicit
+ * Signed integers are guaranteed to be two’s complement
+ * Mathematical constants, such as piand sqrt2
+ * Operations on bits, such as rotationsand counting ones
