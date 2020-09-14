@@ -42,6 +42,7 @@ There is a summary of every new features added in each version of c++ under the 
 #include "include/C++17/function21_optional_variant_any.h"
 #include "include/C++17/function22_concurrency.h"
 #include "include/C++17/function23_parallel_stl.h"
+#include "include/C++17/function24_file_system.h"
 
 
 #define print(a) std::cout << a << std::endl << std::endl;
@@ -85,10 +86,9 @@ int main(){
     functions.pb(function_21_optional_variant_any);                 // Variant, optional, and any
     functions.pb(function_22_concurrency);                          // Concurrency
     functions.pb(function_23_parallel_stl);                         // Parallel STL
+    functions.pb(function_24_file_system);                         // File System
 
 
-    //function23();   // Parallel STL
-    //function24();   // File System
     //function25();   // Explicit Tests in Condition
     
 
